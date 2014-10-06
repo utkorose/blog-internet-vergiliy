@@ -1,0 +1,10 @@
+# Site settings
+title: "Блог бизнес-интернет-вергилия"
+email: work@utkorose.ru
+description: "Материалы старого блога"
+baseurl: ""
+url: "http://old-blog.utkorose.ru"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

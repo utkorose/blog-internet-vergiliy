@@ -1,0 +1,78 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<meta name="description" content="{{ site.description }}">
+		<link href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+		<link href="{{ "/css/theme.css" | prepend: site.baseurl }}" rel="stylesheet">
+	</head>
+	<body id="<?php get_page_slug(); ?>">
+	<div class="Tbackground">
+  	<div class="container">
+  	 	<div class="row">
+	   		<div class="col-md-12">
+  				<div class="page-header">
+  					<span class="h1">{{ site.title }}</span>
+  				</div>
+          <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" href="" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="/">Главная</a></li>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Эбаут <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/about">Эбаут</a></li>
+                      <li><a href="/about/vzglyad">Мировоззрение</a></li>
+                      <li><a href="/about/po">ПО</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="/amdm">Подборы аккордов</a></li>
+                  <li><a href="/raboty">Работы</a></li>
+                  <li><a href="/sajtodelanie">Сайтоделание</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>		
+        </div>
+			</div>
+  		<div class="row">
+	   		<div class="col-md-9">
+				  <div>
+				    <article>{{ content }}</article>
+				  </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Боковая колонка</div>
+            <div class="panel-body">
+              Здесь определённо что-то будет
+            </div>
+          </div>
+
+        </div>
+		  </div>
+        <div id="footer" class="row">
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+          <div class="panel-heading">Материалы сайта доступны под лицензией <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>
+      </div>
+    </div>
+
+  </div>
+    </div>
+	</div>
+
+	<script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+	<script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+	</body>
+</html>
+
