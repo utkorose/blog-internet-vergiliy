@@ -3,4 +3,19 @@
 }
 .Tbackground{
 	background-color: #ecf0f1;
+  background:url(/img/fire-298105_1280.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.head-fon{
+  background:url(/img/artmatic-73182.jpg) no-repeat;
+}
+.page-header .h1{
+  color:#4E6E8E;
+}
+
+#footer .panel{
+  margin-bottom: 0;
 }
