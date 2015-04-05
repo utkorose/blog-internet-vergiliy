@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Продвижение в интернете — ад, или чем я занимаюсь"
+description: "собственно "
+categories: uncategorized
+---
 <img src="/img/costume-15682_1280.jpg">
 
 Я выделяю в этом аду 9 кругов:
