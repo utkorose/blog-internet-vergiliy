@@ -20,9 +20,19 @@
   margin-bottom: 0;
 }
 
-/* Главная страницы — список постов*/
-
-
+.post-ctg-list-title{
+  font-weight:bold;
+}
+/*Список постов*/
+.post-date{
+  font-size:12px;
+  font-style: italic;
+}
+.post-link{
+  font-weight:bold;
+  font-size:16px;
+  
+}
 .post-decription{
   padding-left:5px;
 }
