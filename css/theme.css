@@ -21,12 +21,10 @@
 }
 
 /* Главная страницы — список постов*/
-.post-link{
-  font-size:18px;
-}
+
 
 .post-decription{
-  margin-left:5px;
+  padding-left:5px;
 }
 
 .posts li{
