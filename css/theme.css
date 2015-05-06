@@ -16,6 +16,10 @@
 }
 .page-header a .h1{
   color:#A1B7CC;
+  text-decoration: none;
+}
+.page-header a:hover{
+  text-decoration: none;
 }
 
 #footer .panel{
