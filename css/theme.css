@@ -15,7 +15,7 @@
   background:url(/img/artmatic-73182.jpg) no-repeat;
 }
 .page-header a .h1{
-  color:#A1B7CC;
+  color:#F6CBC2;
   text-decoration: none;
 }
 .page-header a:hover{
@@ -53,7 +53,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 50px;
     background:url(/img/fire-298105_1280.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -64,7 +64,7 @@ body {
   position: absolute;
   bottom: 0;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 50px;
   width:100%;
   background-color: #2c3e50;
   visibility:hidden;
@@ -74,8 +74,8 @@ body {
 }
 
 .footer .container{
-  height:60px;
-  background-color: #2c3e50;
+  height:50px;
+  background-color: #762412;
   visibility:visible;
 }
 .footer .container .panel{
@@ -84,4 +84,35 @@ body {
 }
 #cont1{
   min-height:100%;
+}
+
+/* цвета панелек*/
+.panel-default{
+  border-color:#762412;
+}
+.panel-default .panel-heading{
+  background:#762412;
+  color: #ffffff;
+  border:0;
+}
+
+.navbar-default{
+  background:#672010;
+}
+
+a {
+  color:#189F30;
+}
+a:hover{
+  color:#189F30;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color:#3B1209;
+}
+.dropdown-menu li a:hover{
+  background:#672010;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  color:#5DE676;
 }
