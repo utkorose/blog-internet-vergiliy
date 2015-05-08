@@ -75,7 +75,7 @@ body {
 
 .footer .container{
   height:50px;
-  background-color: #762412;
+  background-color: #A30006;
   visibility:visible;
 }
 .footer .container .panel{
@@ -91,13 +91,13 @@ body {
   border-color:#762412;
 }
 .panel-default .panel-heading{
-  background:#762412;
+  background:#A30006;
   color: #ffffff;
   border:0;
 }
 
 .navbar-default{
-  background:#672010;
+  background:#A30006;
 }
 
 a {
