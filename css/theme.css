@@ -116,3 +116,9 @@ a:hover{
 .navbar-default .navbar-nav>li>a:focus{
   color:#FFCDCE;
 }
+
+/* маргины навбара*/
+.navbar{
+	margin-left:-15px;
+	margin-right:-15px;
+}
