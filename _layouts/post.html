@@ -12,7 +12,10 @@ layout: default
   {{ content }}
   </article>
   <p class="post-ctg-list-title">Категории:</p>
-   <p> {{ page.categories }}
+   <p> {% for category in page.categories %}
+        <a href="/{{category}}">{{category}}</a>
+        
+      {% endfor %}
     </p>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
