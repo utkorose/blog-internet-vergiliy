@@ -3,7 +3,7 @@ layout: post
 title: Делаем правильные разделы «Вопрос-ответ» и «Часто задаваемые вопросы»(«FAQ»,«Чаво»)
 description: "Нужен ли такой раздел на Вашем сайте? Каждый раздел или полезен или вреден для сайта, ведь..."
 categories: site
-published: false
+published: true
 ---
 
 ![альт текст](/img/golubshto.jpeg)
