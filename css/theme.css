@@ -13,6 +13,10 @@ body {
         -o-background-size: cover;
         background-size: cover;
 }
+
+h1{
+	color:#A30006;
+}
 .Tbackground{
   min-height:100%;
   background:url(/img/fire-298105_1280.jpg) no-repeat center center fixed;
