@@ -15,7 +15,7 @@ layout: default
    <p> {% for category in page.categories %}
           {% case category %}
           {% when site %}
-          {% catname=Сайт %}
+          {% catname = "Сайт" %}
           <a href="/{{category}}">{% print catname %}</a>
           {% end %}
       {% endfor %}
