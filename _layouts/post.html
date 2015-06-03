@@ -15,12 +15,12 @@ layout: default
   
    <p> {% for category in page.categories %}
           {% case category %}
-            {% when site %}
+            {% when "site" %}
               hit "<a href="/site">Сайтоделание</a>"
-            {% when feedbacks %}
+            {% when "feedbacks" %}
               <a href="/feedbacks">Отзывы</a>
-              {% when base %}
-              <a href="/base">База</a>
+              {% when "base" %}
+              <a href="/base">База</a>e
             {% else %}
               <a></a>
           {% endcase %} 
