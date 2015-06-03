@@ -13,7 +13,10 @@ layout: default
   </article>
   <p class="post-ctg-list-title">Категории:</p>
    <p> {% for category in page.categories %}
-        <a href="/{{category}}">{{category|first}}</a>
+          {% case category %}
+          {% when site %}
+          {% catname=Сайт %}
+          <a href="/{{category}}">{{catname}}</a>
         
       {% endfor %}
     </p>
