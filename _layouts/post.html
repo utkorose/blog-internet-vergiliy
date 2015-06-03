@@ -12,12 +12,22 @@ layout: default
   {{ content }}
   </article>
   <p class="post-ctg-list-title">Категории:</p>
-  ctanames = {"site" => "Прушинский В.В.",
-  "feedbacks" => "Комаров А.Т.",
-  "base" => "Скакалова А.Я"}
+  {% assign test = 0 %}
    <p> {% for category in page.categories %}
-
-          <a href="/{{category}}">{% puts catnames[category] %}</a>
+          {% case category %}
+            {% when site %}
+              hit "<a href="/site">Сайтоделание</a>"
+              {% assign test = '1' %}
+            {% when feedbacks %}
+              hit "<a href="/feedbacks">Отзывы</a>"
+              {% assign test = '1' %}
+              {% when base %}
+              hit "<a href="/base">База</a>"
+              {% assign test = '1' %}
+            {% else %}
+            elseblock
+          {% endcase %} 
+          
       {% endfor %}
     </p>
 <div id="disqus_thread"></div>
