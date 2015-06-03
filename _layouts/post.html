@@ -14,20 +14,15 @@ layout: default
   <p class="post-ctg-list-title">Категории:</p>
   
    <p> {% for category in page.categories %}
-          {% assign test = 0 %}
           {% case category %}
             {% when site %}
               hit "<a href="/site">Сайтоделание</a>"
-              {% test = 1 %}
             {% when feedbacks %}
               <a href="/feedbacks">Отзывы</a>
-              {% test = 1 %}
               {% when base %}
               <a href="/base">База</a>
-              {% test = 1 %}
             {% else %}
-              {% if test == 0 %}
-              Нет категорий
+              {%  %}
           {% endcase %} 
           
       {% endfor %}
