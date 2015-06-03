@@ -13,19 +13,18 @@ layout: default
   </article>
   <p class="post-ctg-list-title">Категории:</p>
   
-   <p> {% for category in page.categories %}
+   <p> 
           {% case category %}
             {% when "site" %}
-              hit "<a href="/site">Сайтоделание</a>"
+              <a href="/site">Сайтоделание</a>
             {% when "feedbacks" %}
               <a href="/feedbacks">Отзывы</a>
               {% when "base" %}
-              <a href="/base">База</a>e
+              <a href="/base">База</a>
             {% else %}
               <a></a>
           {% endcase %} 
-          
-      {% endfor %}
+
     </p>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
