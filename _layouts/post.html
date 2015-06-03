@@ -16,8 +16,8 @@ layout: default
           {% case category %}
           {% when site %}
           {% catname=Сайт %}
-          <a href="/{{category}}">{{catname}}</a>
-        
+          <a href="/{{category}}">{% print catname %}</a>
+          {% end %}
       {% endfor %}
     </p>
 <div id="disqus_thread"></div>
