@@ -50,4 +50,5 @@ published: true
 Если у вас есть какие-то вопросы или своё мнение — выскажите его, пожалуйста, в комментарии.
 
 Напоследок видео от том, как точно не надо отвечать на вопросы:
+
 <iframe width="420" height="315" src="https://www.youtube.com/embed/cMsxnDMBifk" frameborder="0" allowfullscreen> </iframe>
