@@ -12,16 +12,7 @@ layout: default
   {{ content }}
   </article>
   <p class="post-ctg-list-title">Категории:</p>
-   <p> {% case page.category %}
-    {% when feedbacks puts <a href="/feedbacks">Отзывы</a> %}
-      
-    {% when base %}
-      <a href="/base">База</a>
-    {% when site %}
-      <a href="/site">Сайтоделание</a>
-    {% else %}
-      Без категории
-    {% endcase %}
+   <p> {{page.category }}
     </p>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
