@@ -13,7 +13,9 @@ body {
         -o-background-size: cover;
         background-size: cover;
 }
-
+.logo{
+	vertical-align:center;
+}
 .h1{
 	color:#A30006;
 	font-size: 44px;;
