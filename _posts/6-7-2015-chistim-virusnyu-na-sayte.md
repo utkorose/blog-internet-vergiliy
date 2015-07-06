@@ -24,7 +24,7 @@ published: false
 
 *[Manul](http://yandex.ru/promo/manul)* пока не лечит заражнные файлы, но очень красноречиво о них рассказывает. Загружаем папку с антивирусом в корень сайта, переходим по адресу *адрес.сайта/manul/index.php* и запускаем сканирование(спасибо http://free-antivirus.by/ за скриншот, своих я сделать не догадался):
 
-[<img src="/img/yandex-manul-start.jpg">](http://free-antivirus.by/)
+[<img src="/img/yandex-manul-start.png">](http://free-antivirus.by/)
 
 Копируем лог, загружаем в [анализатор Manul](http://antimalware.github.io/manul/). Смотрим отчёт. Что-то нашёл (в моём случае — 9 файлов зараженённых и несколько подозрительных):
 
@@ -47,5 +47,8 @@ published: false
 
 ##Проводим стандартную настройку *Joomla!* для защиты от взлома.
 
-[Хорошая статья №1](http://palpalych.ru/blog/55-razrabotka/302-bezopasnost-sajtov-na-joomla-ili-kak-borotsja-s-virusami-na-sajte.html) об этом и [хорошая статья №2](http://blog.a1.lg.ua/joomla/zashhita-joomla-2-5-ot-vzloma). Я исправил всё, что мог, отправил рекомендации заказчику
+[Хорошая статья №1](http://palpalych.ru/blog/55-razrabotka/302-bezopasnost-sajtov-na-joomla-ili-kak-borotsja-s-virusami-na-sajte.html) об этом и [хорошая статья №2](http://blog.a1.lg.ua/joomla/zashhita-joomla-2-5-ot-vzloma). Я исправил всё, что мог, отправил рекомендации заказчику. Главной рекомендацией было, разумеется, сменить все логины и пароли — кто-то ведь уже взломал сайт и загрузил эту гадость.
 
+##Итоги и расценки
+
+Гугл убрал плашку вечером того же дня, все остались довольны. За такую работу я возьму на момент написания этого текста 1000 рублей, оплата по факту снятия плашки.
