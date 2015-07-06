@@ -84,7 +84,9 @@ body {
 .post-link{
   font-weight:bold;
   font-size:16px;
-  
+}
+.post-link a:visited{
+  color:#A30006;
 }
 .post-decription{
   padding-left:5px;
