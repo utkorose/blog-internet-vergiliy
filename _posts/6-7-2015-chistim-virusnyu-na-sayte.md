@@ -43,7 +43,7 @@ published: false
 
 И ушёл. В инструментах для вебмастеров выбираем нужный сайт и бегом в раздел «Проблемы безопасности»
 
-<img src="/img/googlewebmaster.png">
+<img src="/img/googlewebmastervirus.png">
 
 ##Проводим стандартную настройку *Joomla!* для защиты от взлома.
 
