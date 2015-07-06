@@ -120,6 +120,9 @@ a:hover{
 a:visited{
   color:#FF5258;
 }
+.panel-body a:visited{
+  color:#A30006;
+}
 a:focus{
   color:#A30006;
 }
