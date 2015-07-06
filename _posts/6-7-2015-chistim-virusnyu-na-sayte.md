@@ -24,7 +24,7 @@ published: false
 
 *[Manul](http://yandex.ru/promo/manul)* пока не лечит заражнные файлы, но очень красноречиво о них рассказывает. Загружаем папку с антивирусом в корень сайта, переходим по адресу *адрес.сайта/manul/index.php* и запускаем сканирование(спасибо http://free-antivirus.by/ за скриншот, своих я сделать не догадался):
 
-[<img src="/img/yandex-manul-start">](http://free-antivirus.by/)
+[<img src="/img/yandex-manul-start.jpg">](http://free-antivirus.by/)
 
 Копируем лог, загружаем в [анализатор Manul](http://antimalware.github.io/manul/). Смотрим отчёт. Что-то нашёл (в моём случае — 9 файлов зараженённых и несколько подозрительных):
 
