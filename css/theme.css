@@ -117,6 +117,13 @@ a:hover{
   color:#A30006;
 }
 
+a:visited{
+  color:#CE0008;
+}
+a:focus{
+  color:#A30006;
+}
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
   background-color:#5E0103;
 }
