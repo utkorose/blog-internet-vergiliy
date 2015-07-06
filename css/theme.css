@@ -67,6 +67,9 @@ body {
 .page-header a:hover{
   text-decoration: none;
 }
+.page-header a:active{
+  text-decoration: none;
+}
 
 .post-ctg-list-title{
   font-weight:bold;
