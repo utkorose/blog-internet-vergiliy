@@ -45,7 +45,7 @@ published: true
 
 <img src="/img/googlewebmastervirus.png">
 
-##Проводим стандартную настройку *Joomla!* для защиты от взлома.
+##6. Проводим стандартную настройку *Joomla!* для защиты от взлома.
 
 [Хорошая статья №1](http://palpalych.ru/blog/55-razrabotka/302-bezopasnost-sajtov-na-joomla-ili-kak-borotsja-s-virusami-na-sajte.html) об этом и [хорошая статья №2](http://blog.a1.lg.ua/joomla/zashhita-joomla-2-5-ot-vzloma). Я исправил всё, что мог, отправил рекомендации заказчику. Главной рекомендацией было, разумеется, сменить все логины и пароли — кто-то ведь уже взломал сайт и загрузил эту гадость.
 
