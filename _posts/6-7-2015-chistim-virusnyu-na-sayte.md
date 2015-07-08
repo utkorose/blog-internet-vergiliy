@@ -26,7 +26,7 @@ published: true
 
 [<img src="/img/yandex-manul-start.png">](http://free-antivirus.by/)
 
-Копируем лог, загружаем в [анализатор Manul](http://antimalware.github.io/manul/). Смотрим отчёт. Что-то нашёл (в моём случае — 9 файлов зараженённых и несколько подозрительных):
+Копируем лог, загружаем в [анализатор Manul](http://antimalware.github.io/manul/). Смотрим отчёт. Что-то нашёл (в моём случае — 9 файлов зараженённых и несколько подозрительных, на фото случай потяжелее):
 
 [<img src="/img/manul-nashol.jpg" width="600px">](http://www.lastdomain.ru/)
 
