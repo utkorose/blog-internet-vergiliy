@@ -28,7 +28,7 @@ published: true
 
 Копируем лог, загружаем в [анализатор Manul](http://antimalware.github.io/manul/). Смотрим отчёт. Что-то нашёл (в моём случае — 9 файлов зараженённых и несколько подозрительных):
 
-[<img src="/img/manul-nashol.jpg">](http://www.lastdomain.ru/)
+[<img src="/img/manul-nashol.jpg" width="600px">](http://www.lastdomain.ru/)
 
 
 ##4. Чистим-лечим
