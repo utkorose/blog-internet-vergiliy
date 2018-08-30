@@ -1,23 +1,4 @@
 ---
-layout: default
+layout: home
+background: '/img/bg-index.jpg'
 ---
-
-<div class="home">
-    {% for post in site.posts %}
-
- <div class="post-preview">
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title">
-                            {{ post.title }}
-                        </h2>
-                        <h3 class="post-subtitle">
-                            {{post.description}}
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on {{ post.date | date: "%-d.%m.%Y" }}</p>
-                </div>
-                <hr>
-                 {% endfor %}
-  <p class="rss-subscribe">Подпишитесь на <a href="{{ "feed.xml" | prepend: site.baseurl }}">обновления по RSS</a></p>
-
-</div>
