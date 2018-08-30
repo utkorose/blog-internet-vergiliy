@@ -1,9 +1,9 @@
 # Site settings
-title: "Блог бизнес-интернет-вергилия"
+title: "Продвижение в интернете"
 email: work@utkorose.ru
 description: "Блог о продвижении бизнеса в интернете. Я проведу вас через все круги этого ада."
 baseurl: ""
-url: "http://old-blog.utkorose.ru"
+url: "http://localhost:4000"
 
 # Build settings
 markdown: kramdown
