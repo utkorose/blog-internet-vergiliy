@@ -23,7 +23,26 @@ background: '/img/bg-post.jpg'
       {% endif %}
       on {{ post.date | date: '%B %d, %Y' }}</p>
   </article>
+  <hr>
+   <p>
+   {% for category in page.categories %}
+          {% case category %}
+            {% when "cases" %}
+              <a href="/cases">Кейсы</a>
+            {% when "feedbacks" %}
+              <a href="/feedbacks">Отзывы</a>
+              {% when "uncategorized" %}
+              <a href="/uncategorized">Без категории</a>
+              {% when "site" %}
+              <a href="/site">Сайты</a>
+            {% else %}
+              <a></a>
 
+          {% endcase %}
+
+    {% endfor  %}
+
+    </p>
   <hr>
 
 {% endfor %}
