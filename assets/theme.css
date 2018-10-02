@@ -1,0 +1,9 @@
+.post-date{
+  font-style:italic;
+}
+
+@media only screen and (max-width: 450px) {
+  header.masthead .page-heading h1, header.masthead .site-heading h1{
+    font-size: 25px;
+  }
+}
